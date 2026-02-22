@@ -1,0 +1,21 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(cd \"/c/Users/charl/Desktop/BUSSINESS/YEKEPLUGS/WEB YEKE\" && npx create-next-app@latest . --typescript --tailwind --eslint --app --src-dir --import-alias \"@/*\" --no-turbopack --use-npm 2>&1)",
+      "Bash(cd \"/c/Users/charl/Desktop/BUSSINESS/YEKEPLUGS\" && npx create-next-app@latest yeke-plug --typescript --tailwind --eslint --app --src-dir --import-alias \"@/*\" --no-turbopack --use-npm --no-experimental-app 2>&1 << EOF\nno\nEOF)",
+      "Bash(rm:*)",
+      "Bash(cd:*)",
+      "Bash(cd \"/c/Users/charl/Desktop/BUSSINESS/YEKEPLUGS/WEB YEKE\" && npm install three @react-three/fiber @react-three/drei framer-motion @types/three 2>&1)",
+      "Bash(tail:*)",
+      "Bash(curl:*)",
+      "Bash(cd \"/c/Users/charl/Desktop/BUSSINESS/YEKEPLUGS/WEB YEKE\" && npx next dev --port 3000 2>&1)",
+      "Bash(cd \"/c/Users/charl/Desktop/BUSSINESS/YEKEPLUGS/WEB YEKE\" && npm install @react-three/postprocessing postprocessing 2>&1)",
+      "Bash(start:*)",
+      "Bash(gh auth:*)",
+      "Bash(git:*)",
+      "Bash(winget install:*)",
+      "Bash(export PATH=\"$PATH:/c/Program Files/GitHub CLI\" && \"/c/Program Files/GitHub CLI/gh.exe\" auth status 2>&1)",
+      "Bash(\"/c/Program Files/GitHub CLI/gh.exe\" auth:*)"
+    ]
+  }
+}
